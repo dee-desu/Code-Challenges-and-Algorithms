@@ -1,5 +1,14 @@
 from collections import deque
 
+
+'''
+map the string labels to integer indices
+get the integer indices for the vertices
+add the edge of the adjacency list
+ get the integer index for the start vertex
+convert the integer indices bACK TO THE STRING LABELS
+'''
+
 class Node:
 
     def __init__(self, value=None):
